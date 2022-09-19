@@ -1,0 +1,8 @@
+header {
+    background-color: map-get($colors , headerColor );
+    box-shadow: map-get($borders , boxShadow );
+    ul {
+        font-family: map-get($fonts , titlesFont );
+        font-size: map-get($fontSize , navBar );
+    }
+}

@@ -1,0 +1,212 @@
+main .subTitulo, main .titulo {
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+main .imgHistoria {
+  width: 871;
+  height: 500;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid #fee600;
+  border-radius: 8px;
+}
+
+main .map-area {
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #fee600;
+  border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.6784313725);
+}
+
+header {
+  background-color: #fee600;
+  box-shadow: 0px 2px 10px 0px rgba(61, 61, 61, 0.94);
+}
+header ul {
+  font-family: "Anton";
+  font-size: 20px;
+}
+
+main .imgStyle {
+  height: 48rem;
+  width: 100%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .conteiner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+main .h1Styles {
+  font-family: "Anton";
+  color: #00fff9;
+  font-size: 8vw;
+  font-weight: 900;
+  opacity: 0.6;
+  letter-spacing: 5px;
+}
+main .pStyles {
+  font-family: "palanquin";
+  font-size: 2vw;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 992px) {
+  .h1Styles {
+    font-size: 14vw !important;
+    letter-spacing: 0px !important;
+  }
+  .pStyles {
+    font-size: 4vw !important;
+    letter-spacing: 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .h1Styles {
+    font-size: 16vw !important;
+    letter-spacing: 0px !important;
+  }
+  .pStyles {
+    font-size: 6vw !important;
+    letter-spacing: 0px !important;
+  }
+}
+@media (max-width: 576px) {
+  .h1Styles {
+    font-size: 18vw !important;
+    letter-spacing: 0px !important;
+  }
+  .pStyles {
+    font-size: 8vw !important;
+    letter-spacing: 0px !important;
+  }
+}
+main .featurette-divider {
+  margin: 2rem 0;
+  border: 0px solid #fee600;
+}
+main .titulo {
+  font-family: "Anton";
+}
+main .subTitulo {
+  font-family: "Anton";
+}
+main .texto {
+  font-family: "palanquin";
+  line-height: 1.7rem;
+}
+main .imgHistoria {
+  margin: 0;
+}
+
+main .textPlayer {
+  font-family: palanquin;
+  font-weight: 600;
+  color: #222222;
+}
+main .avatarMiembro {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  border: 5px solid #fee600;
+  overflow: hidden;
+  border-radius: 8px;
+}
+main .avatarMiembro img {
+  width: 280px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+
+main .textPlayer {
+  font-family: palanquin;
+  font-weight: 600;
+  color: #222222;
+}
+main .avatarTorneo {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  border: 5px solid #fee600;
+  overflow: hidden;
+  border-radius: 8px;
+}
+main .avatarTorneo img {
+  width: 280px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .contact-form {
+  font-family: "palanquin";
+  background-color: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(61, 61, 61, 0.94);
+  padding: 40px 30px;
+}
+main .contact-form .btn {
+  font-family: "Anton";
+  background: #fee600;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 50px;
+  letter-spacing: 2px;
+}
+main .map-area {
+  width: 600px;
+  height: 465px;
+}
+main .map-area iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*responsive*/
+@media (max-width: 991px) {
+  .contact-form {
+    margin-bottom: 30px;
+  }
+  .map-area {
+    display: none;
+  }
+}
+footer {
+  background-color: #707070;
+}
+footer h5 {
+  font-family: "palanquin";
+  font-size: 1rem;
+  color: #ffffff;
+}
+footer ul {
+  font-family: "Anton";
+  font-size: 20px;
+}
+footer img {
+  text-align: center;
+}
+
+@media (max-width: 1158px) {
+  .botonOut {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */

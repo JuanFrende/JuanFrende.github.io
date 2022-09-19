@@ -1,0 +1,25 @@
+main {
+    .featurette-divider {    
+        margin: 2rem 0;
+        border: map-get($borders , divider );    
+    }
+    .titulo {
+        font-family: map-get($fonts , titlesFont );
+        @extend %titulos;    
+    }    
+    .subTitulo {
+        font-family: map-get($fonts , titlesFont );
+        @extend %titulos;
+    }    
+    .texto {
+        font-family: map-get($fonts , textFont );
+        line-height: 1.7rem;    
+    }
+    .imgHistoria {
+        margin: 0;
+        @extend %imgHistoria
+        
+    }
+    
+
+}

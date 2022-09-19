@@ -1,0 +1,15 @@
+main{
+    .textPlayer {
+        @include avatartext (palanquin, #222222)
+
+    }    
+    .avatarMiembro {
+        @include avatarMiembro (5px, #fee600, 8px);
+        img {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            object-position: 50% 50%;                       
+        }       
+    }    
+}

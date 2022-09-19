@@ -1,0 +1,33 @@
+@mixin avatartext ($font, $color) {
+    font-family: $font;
+    font-weight: 600;
+    color: $color;
+    
+}
+
+@mixin avatarMiembro ($border, $borderColor, $borderRadius) {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;           
+    border: $border solid $borderColor;
+    overflow: hidden;
+    border-radius: $borderRadius;
+     
+}
+
+@mixin textEvent ($font, $color) {
+    font-family: $font;
+    font-weight: 600;
+    color: $color;
+    
+}
+
+@mixin avatarTorneo ($border, $borderColor, $borderRadius) {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;           
+    border: $border solid $borderColor;
+    overflow: hidden;
+    border-radius: $borderRadius;
+         
+}
